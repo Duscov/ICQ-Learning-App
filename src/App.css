@@ -1,0 +1,46 @@
+
+.header {
+    background: greenyellow;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(197, 212, 224, 0.88);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    border: 2px solid black;
+    max-height: 120px;
+    flex-basis: 120px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background: aliceblue;
+}
+
+.content {
+    padding: 10px;
+    border: 2px solid black;
+    background: aliceblue;
+    height: 800px;
+    width: 600px;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.user-avatar.small {
+    width: 32px;
+    height: 32px;
+}
